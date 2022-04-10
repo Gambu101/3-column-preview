@@ -1,0 +1,98 @@
+body{
+    /* margin: 250px; */
+    /* max-width: 1440px; */
+    margin-left:400px;
+    margin-top: 250px;
+}
+.flexbox-container{
+    display: flex;
+    flex-direction: row;
+}
+.flexitems{
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+.flex1{
+    background-color: hsl(31, 77%, 52%);
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.flex2{
+    background-color: hsl(184, 100%, 22%);
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.flex3{
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#sedan{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#suv{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#luxury{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.car1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 35px;
+}
+.car2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 35px;
+}
+.car3{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 35px;
+}
+.s1{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 15px;
+}
+button{
+    margin-top: 50px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    height: 50px;
+    width: 150px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+#l1{
+    color: hsl(31, 77%, 52%);
+}
+#l2{
+    color: hsl(184, 100%, 22%);
+}
+#l3{
+    color: hsl(179, 100%, 13%);
+}
+@media only screen and (max-width:375px) {
+    body{max-width: 375px;}
+    .flexbox-container{
+        flex-direction: column;
+    }
+}
